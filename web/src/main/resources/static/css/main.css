@@ -1,3 +1,12 @@
+#myNavbarId{
+    /*background-color: red!important;*/
+    margin-bottom: 20px;
+}
+
+.questionList{
+    margin-top: 20px;
+}
+
 .center{
     text-align: center;
 }

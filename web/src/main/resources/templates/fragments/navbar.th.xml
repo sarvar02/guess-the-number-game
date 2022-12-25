@@ -3,4 +3,20 @@
         sel="#myNavbarId"
         th:fragment="navbarFragment"
     />
+
+    <attr
+        sel="#home"
+        th:text="#{navbar.home}"
+    />
+
+    <attr
+            sel="#play"
+            th:text="#{navbar.play}"
+    />
+
+    <attr
+            sel="#about-me"
+            th:text="#{navbar.about.me}"
+    />
+
 </thlogic>

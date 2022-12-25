@@ -10,4 +10,19 @@
         th:text="#{home.play}"
     />
 
+    <attr
+        sel="#acc-1"
+        th:text="#{game.acc1}"
+    />
+
+    <attr
+            sel="#acc-2"
+            th:text="#{game.acc2}"
+    />
+
+    <attr
+            sel="#acc-3"
+            th:text="#{game.acc3}"
+    />
+
 </thlogic>
