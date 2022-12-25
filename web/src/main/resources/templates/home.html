@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/head :: headFragment}" />
+<body>
+    <div align="center">
+        <h1 id="welcome">Welcome to the Number Game</h1>
+        <a id="play" href="play" th:text="Play">
+            Click to Play
+        </a>
+        <footer th:replace="~{fragments/footer :: footerFragment}" />
+    </div>
+</body>
+</html>

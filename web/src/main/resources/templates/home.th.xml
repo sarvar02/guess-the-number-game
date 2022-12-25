@@ -1,0 +1,13 @@
+<thlogic>
+
+    <attr
+        sel="#welcome"
+        th:text="#{home.welcome}"
+    />
+
+    <attr
+        sel="#play"
+        th:text="#{home.play}"
+    />
+
+</thlogic>

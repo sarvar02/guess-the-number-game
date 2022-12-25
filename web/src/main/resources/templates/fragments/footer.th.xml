@@ -1,0 +1,11 @@
+<thlogic>
+    <attr
+        sel="#footerId"
+        th:fragment="footerFragment"
+    />
+
+    <attr
+        sel="#created-by"
+        th:text="#{game.createdBy}" />
+<!--        th:text="|#{game.createdBy} Learning Programming Academy|" text and expression inside th:text Example -->
+</thlogic>
