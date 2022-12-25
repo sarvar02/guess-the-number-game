@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.LocaleResolver;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.i18n.LocaleChangeInterceptor;
@@ -26,6 +27,18 @@ public class WebConfig implements WebMvcConfigurer {
         registry.addViewController("/").setViewName(ViewNames.HOME);
         registry.addViewController("home").setViewName(ViewNames.HOME);
     }
+
+//    @Override
+//    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+//        registry.addResourceHandler(
+//                        "/img/**",
+//                        "/css/**",
+//                        "/js/**")
+//                .addResourceLocations(
+//                        "classpath:/static/img/",
+//                        "classpath:/static/css/",
+//                        "classpath:/static/js/");
+//    }
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {

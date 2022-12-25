@@ -1,0 +1,6 @@
+<thlogic>
+    <attr
+        sel="#myNavbarId"
+        th:fragment="navbarFragment"
+    />
+</thlogic>

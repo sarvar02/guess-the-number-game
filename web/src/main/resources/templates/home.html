@@ -2,12 +2,16 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head th:replace="~{fragments/head :: headFragment}" />
 <body>
-    <div align="center">
-        <h1 id="welcome">Welcome to the Number Game</h1>
+    <div class="container">
+        <nav th:replace="~{fragments/navbar :: navbarFragment}"></nav>
+        <h1 id="welcome" class="center">Welcome to the Number Game</h1>
+        <p>In this game, you have 10 guesses to find the secret number, after every guess you will be given the range that the number lie </p>
         <a id="play" href="play" th:text="Play">
             Click to Play
         </a>
         <footer th:replace="~{fragments/footer :: footerFragment}" />
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
