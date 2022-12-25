@@ -10,3 +10,16 @@
 .center{
     text-align: center;
 }
+
+.logo{
+    font-size: 50px!important;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.link{
+    text-decoration: none;
+}
+
+#resultMessage{
+    font-size: 20px;
+}
